@@ -28,27 +28,30 @@ Se reinicia el servicio de networking con el comando service service networking 
 Para abrir los puertos en Ubuntu utilizamos el comando sudo ufw allow 5000. Después de esto debemos utilizar el comando sudo ufw enable.
 </li>
 <li>
-Para el funcionamiento del proyecto se usaron los siguientes comandos para bajar las respectivas dependencias:
-a. Descargar dependencias necesarias para el funcionamiento de python
-i. sudo apt-get install build-essential checkinstall
-ii. sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
-b. Instalar Python en caso de que no se quiera usar la versión por defecto, que es python3
-i. wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
-ii. tar xzf Python-2.7.13.tgz
-iii. cd Python-2.7.13 &  sudo ./configure
-iiii. sudo make install
+Para el funcionamiento del proyecto se usaron los siguientes comandos para bajar las respectivas dependencias:<br>
+a. Descargar dependencias necesarias para el funcionamiento de python<br>
+i. sudo apt-get install build-essential checkinstall <br>
+ii. sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev<br>
+b. Instalar Python en caso de que no se quiera usar la versión por defecto, que es python3<br>
+i. wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz<br>
+ii. tar xzf Python-2.7.13.tgz<br>
+iii. cd Python-2.7.13 &  sudo ./configure <br>
+iiii. sudo make install<br>
 <\li>
 <li>
-Para crear el ambiente virtual debemos instalar pip, virtualenv y Flask.
-a. Instalar virtualenv
-i. pip install virtualenv
-ii. cd ~/
-iii. mkdir envs
-iiii. cd envs
-v. virtualenv flask_env
-b. Activar el ambiente
-i. . flask_env/bin/actívate
-c. Desactivar el ambiente
-i. deactivate
+Para crear el ambiente virtual debemos instalar pip, virtualenv y Flask.<br>
+a. Instalar virtualenv <br>
+i. pip install virtualenv<br>
+ii. cd ~/ <br>
+iii. mkdir envs<br>
+iiii. cd envs<br>
+v. virtualenv flask_env<br>
+b. Activar el ambiente<br>
+i. . flask_env/bin/actívate<br>
+c. Desactivar el ambiente<br>
+i. deactivate<br>
+
+
+
 <\li>
 <ol>

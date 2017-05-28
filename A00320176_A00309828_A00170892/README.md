@@ -37,7 +37,7 @@ i. wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz<br>
 ii. tar xzf Python-2.7.13.tgz<br>
 iii. cd Python-2.7.13 &  sudo ./configure <br>
 iiii. sudo make install<br>
-<\li>
+</li>
 <li>
 Para crear el ambiente virtual debemos instalar pip, virtualenv y Flask.<br>
 a. Instalar virtualenv <br>
@@ -50,8 +50,22 @@ b. Activar el ambiente<br>
 i. . flask_env/bin/actívate<br>
 c. Desactivar el ambiente<br>
 i. deactivate<br>
+</li>
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/3.png">
+
+<li>
+Dentro del repositorio de github: https://github.com/CarlosLlano/so-microservices-python/tree/master/A00170892/07_flask_examples se puede encontrar la aplicación en python.
+</li>
+<li>
+Validación de la ejecución del servicio
+</li>
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/4.png">
+<li>
+</li>
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/5.png">
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/6.png">
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/7.png">
+<img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/8.png">
 
 
-
-<\li>
 <ol>

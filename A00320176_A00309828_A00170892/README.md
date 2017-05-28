@@ -24,4 +24,31 @@ Se agregan al archivo interfaces que se encuentra en la ruta /etc/network/interf
 Se reinicia el servicio de networking con el comando service service networking restart
 <img src="https://github.com/dgutierrez1/so-project/blob/master/A00320176_A00309828_A00170892/2.png">
 </li>
+<li>
+Para abrir los puertos en Ubuntu utilizamos el comando sudo ufw allow 5000. Después de esto debemos utilizar el comando sudo ufw enable.
+</li>
+<li>
+Para el funcionamiento del proyecto se usaron los siguientes comandos para bajar las respectivas dependencias:
+a. Descargar dependencias necesarias para el funcionamiento de python
+i. sudo apt-get install build-essential checkinstall
+ii. sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+b. Instalar Python en caso de que no se quiera usar la versión por defecto, que es python3
+i. wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tgz
+ii. tar xzf Python-2.7.13.tgz
+iii. cd Python-2.7.13 &  sudo ./configure
+iiii. sudo make install
+<\li>
+<li>
+Para crear el ambiente virtual debemos instalar pip, virtualenv y Flask.
+a. Instalar virtualenv
+i. pip install virtualenv
+ii. cd ~/
+iii. mkdir envs
+iiii. cd envs
+v. virtualenv flask_env
+b. Activar el ambiente
+i. . flask_env/bin/actívate
+c. Desactivar el ambiente
+i. deactivate
+<\li>
 <ol>

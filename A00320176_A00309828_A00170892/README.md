@@ -1,9 +1,13 @@
 # Miniproyecto Sistemas Operativos
 
 Integrantes:
-Daniel Gutierrez,
-Emmanuel Bolaños,
-Carlos Llano
+<ul>
+  <li>A00320176 - Daniel Gutierrez</li>
+  <li>A00309828 - Emmanuel Bolaños</li>
+  <li>A00170892 - Carlos Llano</li>
+</ul>
+
+
 
 El siguiente proyecto consiste en el despliegue de una aplicación web para obtener información del sistema operativo (Deberá emplear la aplicación desarrollada en el segundo parcial). Para este propósito se debe emplear el sistema operativo Ubuntu Server 16.04, el microframework flask y ambientes virtuales.
 
